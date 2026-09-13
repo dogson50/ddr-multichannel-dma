@@ -1,0 +1,11 @@
+# Build products
+build/
+*.vvp
+*.out
+*.log
+*.jou
+*.pb
+.Xil/
+
+# The original uiFDMA implementation is third-party and must not be committed.
+vendor/uiFDMA.v
