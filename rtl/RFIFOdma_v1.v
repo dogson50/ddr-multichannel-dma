@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: CERN-OHL-P-2.0
+// Copyright (C) 2026 Xiao Jun
+// Source Location: https://github.com/dogson50/ddr-multichannel-dma
+
 `timescale 1ns / 1ps
 
 module RFIFOdma_v1

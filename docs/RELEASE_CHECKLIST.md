@@ -5,9 +5,9 @@
 - [x] Add a local-only integration/lint path for `uiFDMA.v`.
 - [x] Scan tracked RTL for obvious secrets, personal paths, and copyright markers.
 - [x] Run Icarus Verilog elaboration with the locally authorized dependency.
-- [ ] Confirm ownership/provenance of every tracked RTL file.
-- [ ] Choose and add an open-source license.
-- [ ] Add copyright holder name/year.
+- [x] Confirm ownership/provenance of every tracked RTL file.
+- [x] Choose and add an open-source license (`CERN-OHL-P-2.0`).
+- [x] Add copyright holder name/year (`Copyright (C) 2026 Xiao Jun`).
 - [ ] Add at least one public testbench or simulation example.
-- [ ] Configure the public GitHub/GitLab/Gitee remote.
-- [ ] Commit and push `main`.
+- [x] Configure the public GitHub remote.
+- [x] Commit and push `main`.

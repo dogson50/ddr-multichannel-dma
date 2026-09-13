@@ -1,0 +1,15 @@
+CERN-OHL-P-2.0 NOTICE
+
+Copyright (C) 2026 Xiao Jun
+
+The Covered Source in this repository is licensed under the CERN Open
+Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0).
+
+Source Location:
+https://github.com/dogson50/ddr-multichannel-dma
+
+The third-party uiFDMA implementation is not part of the Covered Source and is
+not distributed by this repository. See docs/THIRD_PARTY.md.
+
+The Covered Source and any Products are provided without warranty, as described
+in the LICENSE file.

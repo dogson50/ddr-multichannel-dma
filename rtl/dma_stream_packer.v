@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: CERN-OHL-P-2.0
+// Copyright (C) 2026 Xiao Jun
+// Source Location: https://github.com/dogson50/ddr-multichannel-dma
+
 `timescale 1ns / 1ps
 
 // 将较窄的流数据打包成 DDR 侧数据宽度。

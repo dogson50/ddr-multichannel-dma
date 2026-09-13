@@ -3,7 +3,7 @@
 一个面向 FPGA DDR 数据通路的多通道 Verilog 控制器，提供视频流与普通
 AXI-Stream 数据在多个写通道、读通道之间的缓存、地址生成和固定优先级仲裁。
 
-> **发布状态：待选择开源许可证和配置远程仓库。**
+> **开源许可证：CERN-OHL-P-2.0；Copyright © 2026 Xiao Jun。**
 >
 > `uiFDMA.v` 是外部第三方依赖，不随本仓库分发；详见
 > [`docs/THIRD_PARTY.md`](docs/THIRD_PARTY.md)。
@@ -77,5 +77,12 @@ vendor/
 
 ## License
 
-尚未选择。FPGA/HDL 项目可考虑 CERN-OHL-P-2.0（宽松）或
-CERN-OHL-W-2.0（弱互惠）；必须由版权所有者最终确认后再公开发布。
+本仓库中可公开的 Covered Source 由 Xiao Jun 以
+[CERN Open Hardware Licence Version 2 - Permissive](LICENSE) 发布，
+SPDX 标识为 `CERN-OHL-P-2.0`。源码位置为：
+
+```text
+https://github.com/dogson50/ddr-multichannel-dma
+```
+
+许可证不覆盖、也不重新许可第三方 `uiFDMA.v`；该文件不会随仓库分发。

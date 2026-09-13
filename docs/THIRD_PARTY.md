@@ -24,3 +24,9 @@ The path is intentionally ignored by Git. Then run:
 
 Alternatively, provide a clean-room, interface-compatible AXI4 master named
 `uiFDMA` under a license compatible with this repository.
+
+## License scope
+
+The repository's CERN-OHL-P-2.0 license applies only to the Covered Source
+actually tracked here. It does not grant any rights to the excluded MiLianKe
+`uiFDMA.v` implementation.
