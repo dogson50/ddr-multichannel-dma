@@ -18,6 +18,7 @@ AXI-Stream 数据在多个写通道、读通道之间的缓存、地址生成和
 - 视频通道支持帧缓冲索引、行/帧地址推进和同步控制。
 - 普通 DMA 通道支持运行时基地址、文件大小和启动控制。
 - 控制器采用固定优先级仲裁，并通过 FDMA 请求接口驱动 AXI4 master bridge。
+- 当前顶层会串行化完整的 FDMA 读写事务；裸 `uiFDMA` 的一读一写并发验证及控制器限制详见 [`docs/FDMA_DUPLEX_AND_CONTROLLER_LIMITATIONS.md`](docs/FDMA_DUPLEX_AND_CONTROLLER_LIMITATIONS.md)。
 
 ## 当前固定优先级
 
